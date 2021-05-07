@@ -81,7 +81,7 @@ export default function Pricing() {
               </ListItem>
             </List>
             <Box w="80%" pt={7}>
-              <Button w="full" colorScheme="red" variant="outline">
+              <Button w="full" colorScheme="blue" variant="outline">
                 Start trial
               </Button>
             </Box>
@@ -97,10 +97,10 @@ export default function Pricing() {
               style={{ transform: 'translate(-50%)' }}>
               <Text
                 textTransform="uppercase"
-                bg={useColorModeValue('red.300', 'red.700')}
+                bg={"blue.500"}
                 px={3}
                 py={1}
-                color={useColorModeValue('gray.900', 'gray.300')}
+                color={"white"}
                 fontSize="sm"
                 fontWeight="600"
                 rounded="xl">
@@ -150,7 +150,7 @@ export default function Pricing() {
                 </ListItem>
               </List>
               <Box w="80%" pt={7}>
-                <Button w="full" colorScheme="red">
+                <Button w="full" colorScheme="blue">
                   Start trial
                 </Button>
               </Box>
@@ -193,7 +193,7 @@ export default function Pricing() {
               </ListItem>
             </List>
             <Box w="80%" pt={7}>
-              <Button w="full" colorScheme="red" variant="outline">
+              <Button w="full" colorScheme="blue" variant="outline">
                 Start trial
               </Button>
             </Box>

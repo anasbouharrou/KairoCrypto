@@ -63,13 +63,12 @@ const Header = () => {
               fontFamily={'heading'}
               color={useColorModeValue('gray.800', 'white')}>
             <Image
-                height="40px"
                 objectFit="cover"
                 src={logo}
                 alt="Dan Abramov"
+                maxWidth="200px"
             />
             </Text>
-  
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
               <DesktopNav />
             </Flex>
@@ -93,10 +92,10 @@ const Header = () => {
               fontSize={'sm'}
               fontWeight={600}
               color={'white'}
-              bg={'red.400'}
+              bg={'blue.400'}
               href={'#'}
               _hover={{
-                bg: 'red.300',
+                bg: 'blue.300',
               }}>
               Sign Up
             </Button>
@@ -254,18 +253,6 @@ const Header = () => {
   const NAV_ITEMS = [
     {
       label: 'Inspiration',
-      children: [
-        {
-          label: 'Explore Design Work',
-          subLabel: 'Trending Design to inspire you',
-          href: '#',
-        },
-        {
-          label: 'New & Noteworthy',
-          subLabel: 'Up-and-coming Designers',
-          href: '#',
-        },
-      ],
     },
     {
       label: 'Find Work',

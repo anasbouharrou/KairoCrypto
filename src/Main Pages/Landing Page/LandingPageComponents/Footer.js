@@ -10,9 +10,11 @@ import {
   Input,
   IconButton,
   useColorModeValue,
+  Image
 } from '@chakra-ui/react';
 import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { BiMailSend } from 'react-icons/bi';
+import logo from './static/logo.png';
 
 const Logo = (props) => {
   return (
@@ -79,10 +81,14 @@ export default function Footer() {
           spacing={8}>
           <Stack spacing={6}>
             <Box>
-              <Logo color={useColorModeValue('gray.700', 'white')} />
-            </Box>
+            <Image
+                objectFit="cover"
+                src={logo}
+                alt="Dan Abramov"
+                maxWidth="200px"
+            />            </Box>
             <Text fontSize={'sm'}>
-              © 2020 Chakra Templates. All rights reserved
+              © 202 KairoCrypto. All rights reserved
             </Text>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'#'}>
@@ -124,10 +130,10 @@ export default function Footer() {
                 }}
               />
               <IconButton
-                bg={useColorModeValue('green.400', 'green.800')}
+                bg={useColorModeValue('blue.400', 'blue.800')}
                 color={useColorModeValue('white', 'gray.800')}
                 _hover={{
-                  bg: 'green.600',
+                  bg: 'blue.600',
                 }}
                 aria-label="Subscribe"
                 icon={<BiMailSend />}
