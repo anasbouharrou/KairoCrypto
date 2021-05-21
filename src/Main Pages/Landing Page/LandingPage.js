@@ -6,6 +6,7 @@ import Pricing from './LandingPageComponents/Pricing.js';
 import Footer from './LandingPageComponents/Footer.js';
 import Header from './LandingPageComponents/Header.js';
 import FeaturesCollumn from './LandingPageComponents/FeaturesCollumn.js';
+/* Adding one comment */
 
 const LandingPage = () => {
     return(
