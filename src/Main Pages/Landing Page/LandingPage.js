@@ -6,17 +6,23 @@ import Pricing from './LandingPageComponents/Pricing.js';
 import Footer from './LandingPageComponents/Footer.js';
 import Header from './LandingPageComponents/Header.js';
 import FeaturesCollumn from './LandingPageComponents/FeaturesCollumn.js';
-/* Adding one comment */
+import Testamontials from './LandingPageComponents/Testamontials.js';
+import Faq from './LandingPageComponents/Faq.js';
+
 
 const LandingPage = () => {
     return(
         <>
-            <Header />
-            <CallToAction />
-            <Features />
-            <FeaturesCollumn />
-            <Stats className="stats"/>
-            <Pricing />
+            <div className="LandingPage" >
+                <Header />
+                <CallToAction />
+                <Features />
+                <FeaturesCollumn />
+                <Testamontials />
+                <Stats className="stats"/>
+                <Pricing />
+                <Faq />
+            </div>
             <Footer />
         </>
     );
