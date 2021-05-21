@@ -11,15 +11,13 @@ import FeaturesCollumn from './LandingPageComponents/FeaturesCollumn.js';
 const LandingPage = () => {
     return(
         <>
-        <div className="LandingPage">
             <Header />
             <CallToAction />
             <Features />
             <FeaturesCollumn />
             <Stats className="stats"/>
             <Pricing />
-        </div>
-        <Footer />
+            <Footer />
         </>
     );
 }
